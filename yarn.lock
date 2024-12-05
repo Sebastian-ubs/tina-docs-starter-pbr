@@ -2179,10 +2179,12 @@
   resolved "https://registry.npmjs.org/@types/ms/-/ms-0.7.31.tgz"
   integrity sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==
 
-"@types/node@*", "@types/node@>= 14", "@types/node@>=13":
-  version "20.1.7"
-  resolved "https://registry.npmjs.org/@types/node/-/node-20.1.7.tgz"
-  integrity sha512-WCuw/o4GSwDGMoonES8rcvwsig77dGCMbZDrZr2x4ZZiNW4P/gcoZXe/0twgtobcTkmg9TuKflxYL/DuwDyJzg==
+"@types/node@*", "@types/node@^22.10.1", "@types/node@>= 14", "@types/node@>=13":
+  version "22.10.1"
+  resolved "https://registry.npmjs.org/@types/node/-/node-22.10.1.tgz"
+  integrity sha512-qKgsUwfHZV2WCWLAnVP1JqnpE6Im6h3Y0+fYgMTasNQ7V++CBX5OT1as0g0f+OyubbFqhf6XVNIsmN4IIhEgGQ==
+  dependencies:
+    undici-types "~6.20.0"
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -2589,7 +2591,12 @@
     readable-stream "^4.0.0"
     varint "^5.0.0"
 
-"@xstate/fsm@^2.0.0", "@xstate/fsm@1.4.0":
+"@xstate/fsm@^2.0.0":
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/@xstate/fsm/-/fsm-2.1.0.tgz"
+  integrity sha512-oJlc0iD0qZvAM7If/KlyJyqUt7wVI8ocpsnlWzAPl97evguPbd+oJbRM9R4A1vYJffYH96+Bx44nLDE6qS8jQg==
+
+"@xstate/fsm@1.4.0":
   version "1.4.0"
   resolved "https://registry.npmjs.org/@xstate/fsm/-/fsm-1.4.0.tgz"
   integrity sha512-uTHDeu2xI5E1IFwf37JFQM31RrH7mY7877RqPBS4ZqSNUwoLDuct8AhBWaXGnVizBAYyimVwgCyGa9z/NiRhXA==
@@ -9946,6 +9953,11 @@ underscore@^1.13.2:
   version "1.13.6"
   resolved "https://registry.npmjs.org/underscore/-/underscore-1.13.6.tgz"
   integrity sha512-+A5Sja4HP1M08MaXya7p5LvjuM7K6q/2EaC0+iovj/wOcMsTzMvDFbasi/oSapiwOlt252IqsKqPjCl7huKS0A==
+
+undici-types@~6.20.0:
+  version "6.20.0"
+  resolved "https://registry.npmjs.org/undici-types/-/undici-types-6.20.0.tgz"
+  integrity sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==
 
 unescape@^1.0.1:
   version "1.0.1"
